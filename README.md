@@ -37,15 +37,19 @@ After completing the tasks, prepare a brief presentation for your coaching group
 Submit the refactored version of the "Book Connect" application, including all HTML, CSS, and JavaScript files. Ensure that your code is well-documented and adheres to the specified Styleguides. Include a written report covering the discussion and reflection points outlined above.
 
 Make sure to submit your project to the LMS on the DJS03 Project Tab.
+
 Table of Contents
+
 Overview
 Code Structure
 Installation
 Usage
 Methods
 Event Handling
+
 Overview
 The application dynamically renders a list of books from provided data and supports various functionalities, such as:
+
 
 Displaying books in a preview grid with pagination
 Filtering books by genre, author, or title
@@ -54,18 +58,25 @@ Customizing the application’s theme based on user preference or system setting
 Code Structure
 The application’s logic is encapsulated in the BookList class, which is divided into the following sections:
 
+
 Data Imports: Book, author, genre data, and pagination constants are imported from a separate data file.
+
 Initialization: The BookList constructor initializes key properties and calls the init() method to set up the UI.
+
 UI Rendering Functions: Functions for rendering books, genres, authors, and filtered content to the DOM.
+
 Theme Handling: Functions to detect system theme, apply styles, and manage theme preferences.
+
 Event Handling: Functions that manage user interactions such as search, filtering, opening/closing overlays, and loading more books.
 Installation
-Clone the repository.
+
 Ensure the data.js file is in the same directory, containing book, author, and genre data.
-Open index.html in a browser to run the application.
+
 Usage
 Display Books: On page load, a set number of books display in the preview grid.
+
 Filter and Search: Use dropdowns for genres and authors, or the search bar, to filter books.
+
 Theme Customization: The application theme adjusts to the system's dark mode, or users can manually set the theme in settings.
 Pagination: Click the "Show More" button to load additional books.
 Methods
